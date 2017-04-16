@@ -8,14 +8,14 @@
     <!-- Favicon image made by http://www.flaticon.com/authors/madebyoliver Madebyoliverfrom www.flaticon.com is licensed by CC 3.0 BY -->
     <link rel="shortcut icon" href="images/favicon.png " type="image/png">
 
-    <!-- Styles ----------------------------------------------->
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css " integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ " crossorigin="anonymous ">
+    <!-- Styles-->
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css " integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Google Font Lato CDN -->
     <link rel="stylesheet " href="https://fonts.googleapis.com/css?family=Lato:100,300 ">
     <!-- Custom styles -->
     <link rel="stylesheet " href="css/main.css ">
-    <!--------------------------------------------------------->
+
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         <header>
             <div class="row ">
                 <div class="col-md-6 ">
-                    <svg class="header_logo img-responsive align-middle " role="logo " aria-label="logo, spinning dots " fill="#000000 " viewBox="0 0 24 24 " xmlns="http://www.w3.org/2000/svg ">
+                    <svg class="header_logo align-middle " role="img" aria-label="logo, spinning dots " fill="#000000 " viewBox="0 0 24 24 " xmlns="http://www.w3.org/2000/svg">
                       <title>logo</title>
                       <desc>Three dots of differing sizes continuously rotating as a site logo"</desc>
                       <path d="M0 0h24v24H0z" fill="none" />
@@ -41,43 +41,43 @@
         </header>
         <hr>
         <section class="hero">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-12">
                     <picture class="hero_img">
                         <source media="(min-width: 996px)" srcset="images/hero_large-960_1x.jpg 1x,
                         images/hero_large-1920_2x.jpg 2x">
                         <source media="(min-width: 768px)" srcset="images/hero_medium-960_1x.jpg 1x,
                         images/hero_medium-1920_2x.jpg 2x">
-                        <img class="img-responsive" src="images/hero_small-1920_2x.jpg" srcset="images/hero_small-960_1x.jpg 1x, images/hero_small-1920_2x.jpg 2x" alt="">
+                        <img class="img-fluid" src="images/hero_small-1920_2x.jpg" srcset="images/hero_small-960_1x.jpg 1x, images/hero_small-1920_2x.jpg 2x" alt="">
                     </picture>
                 </div>
             </div>
         </section>
         <br>
         <section id="featured_work">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Featured Work</h2>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-12">
+                    <h2 class="text-xs-center text-md-left">Featured Work</h2>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-4 feature">
-                    <img class="img-responsive" data-toggle="modal" data-target="#modal_movie" src="images/movie_feature-110_2x.jpg" srcset="images/movie_feature-550_1x.jpg 1x, images/movie_feature-1100_2x.jpg 2x" alt="Movie theatre">
+                <div class="col-sm-6 col-md-4 text-center feature">
+                    <img class="img-fluid" data-toggle="modal" data-target="#modal_movie" src="images/movie_feature-110_2x.jpg" srcset="images/movie_feature-550_1x.jpg 1x, images/movie_feature-1100_2x.jpg 2x" alt="Movie theatre">
                     <h3 class="text-center text-uppercase">Movie-Break</h3>
                     <p class="text-center small">
                         <a href="https://github.com/Jormangandur/udacity-fsnd-movie-website">https://github.com/Jormangandur/udacity-fsnd-movie-website</a>
                     </p>
                 </div>
-                <div class="col-md-4 feature">
-                    <img class="img-responsive" data-toggle="modal" data-target="#modal_frogger" src="images/frogger_feature-550_1x.jpg" srcset="images/frogger_feature-550_1x.jpg 1x, images/frogger_feature-1100_2x.jpg 2x" alt="Modern version screenshot of Frogger arcade game">
+                <div class="col-sm-6 col-md-4 text-center feature">
+                    <img class="img-fluid" data-toggle="modal" data-target="#modal_frogger" src="images/frogger_feature-550_1x.jpg" srcset="images/frogger_feature-550_1x.jpg 1x, images/frogger_feature-1100_2x.jpg 2x" alt="Modern version screenshot of Frogger arcade game">
                     <h3 class="text-center text-uppercase">Frogger</h3>
                     <p class="text-center small">
                         <a href="https://github.com/Jormangandur/Udacity-OOJS-Frogger">https://github.com/Jormangandur/Udacity-OOJS-Frogger</a>
                     </p>
                 </div>
-                <div class="col-md-4 feature">
-                    <img class="img-responsive" data-toggle="modal" data-target="#modal_retro-battle" src="images/retro-battle_feature-550_1x.jpg" srcset="images/retro-battle_feature-550_1x.jpg 1x, images/retro-battle_feature-1100_2x.jpg 2x" alt="Retro-Battle game screenshot">
+                <div class="col-md-4 feature text-center feature">
+                    <img class="img-fluid" data-toggle="modal" data-target="#modal_retro-battle" src="images/retro-battle_feature-550_1x.jpg" srcset="images/retro-battle_feature-550_1x.jpg 1x, images/retro-battle_feature-1100_2x.jpg 2x" alt="Retro-Battle game screenshot">
                     <h3 class="text-center text-uppercase">Retro-Battle</h3>
                     <p class="text-center small">
                         <a href="http://github.com/Jormangandur/retro-battle">http://github.com/Jormangandur/retro-battle</a>
@@ -123,18 +123,18 @@
                                     <p>Web app to provide trailers and information for my favourite movies</p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-8 offset-2 text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 text-center">
                                     <figure>
-                                        <img class="img-responsive" src="images/movie_modal_feature-1100_2x.jpg" srcset="images/movie_modal_feature-550_1x.jpg 1x, images/movie_modal_feature-1100_2x.jpg 2x" alt="Home view of Movie-Break">
+                                        <img class="img-fluid" src="images/movie_modal_feature-1100_2x.jpg" srcset="images/movie_modal_feature-550_1x.jpg 1x, images/movie_modal_feature-1100_2x.jpg 2x" alt="Home view of Movie-Break">
                                         <figcaption>Movie poster tiles</figcaption>
                                     </figure>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-8 offset-2 text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 text-center">
                                     <figure>
-                                        <img class="img-responsive" src="images/movie_modal_trailer_feature-1100_2x.jpg" srcset="images/movie_modal_trailer_feature-550_1x.jpg 1x, images/movie_modal_trailer_feature-1100_2x.jpg 2x" alt="Trailer view of Movie-Break">
+                                        <img class="img-fluid" src="images/movie_modal_trailer_feature-1100_2x.jpg" srcset="images/movie_modal_trailer_feature-550_1x.jpg 1x, images/movie_modal_trailer_feature-1100_2x.jpg 2x" alt="Trailer view of Movie-Break">
                                         <figcaption>Watch movie trailers without leaving the page</figcaption>
                                     </figure>
                                 </div>
@@ -163,18 +163,18 @@
                                     <p>A modern re-make of the class Frogger Arcade game</p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-8 offset-2 text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 text-center">
                                     <figure>
-                                        <img class="img-responsive" src="images/frogger_modal_feature-1100_2x.jpg" srcset="images/frogger_modal_feature-550_1x.jpg 1x, images/frogger_modal_feature-1100_2x.jpg 2x" alt="Main frogger game screen">
+                                        <img class="img-fluid" src="images/frogger_modal_feature-1100_2x.jpg" srcset="images/frogger_modal_feature-550_1x.jpg 1x, images/frogger_modal_feature-1100_2x.jpg 2x" alt="Main frogger game screen">
                                         <figcaption>Get to the water - simple right?</figcaption>
                                     </figure>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-8 offset-2 text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 text-center">
                                     <figure>
-                                        <img class="img-responsive" src="images/frogger_modal_enemy_feature-1100_2x.jpg" srcset="images/frogger_modal_enemy_feature-550_1x.jpg 1x, images/frogger_modal_enemy_feature-1100_2x.jpg 2x" alt="Player hitting an enemy">
+                                        <img class="img-fluid" src="images/frogger_modal_enemy_feature-1100_2x.jpg" srcset="images/frogger_modal_enemy_feature-550_1x.jpg 1x, images/frogger_modal_enemy_feature-1100_2x.jpg 2x" alt="Player hitting an enemy">
                                         <figcaption>Avoid the evil bugs!</figcaption>
                                     </figure>
                                 </div>
@@ -203,18 +203,18 @@
                                     <p>Retro video game characters clash in 2d battle arena!</p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-8 offset-2 text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 text-center">
                                     <figure>
-                                        <img class="img-responsive" src="images/retro-battle_modal_feature-1100_2x.jpg" srcset="images/retro-battle_modal_feature-550_1x.jpg 1x, images/retro-battle_modal_feature-1100_2x.jpg 2x" alt="Main battle screen">
+                                        <img class="img-fluid" src="images/retro-battle_modal_feature-1100_2x.jpg" srcset="images/retro-battle_modal_feature-550_1x.jpg 1x, images/retro-battle_modal_feature-1100_2x.jpg 2x" alt="Main battle screen">
                                         <figcaption>The 2d battleground of retro doom</figcaption>
                                     </figure>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-8 offset-2 text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 text-center">
                                     <figure>
-                                        <img class="img-responsive" src="images/retro-battle_modal_fight_feature-1100_2x.jpg" srcset="images/retro-battle_modal_fight_feature-550_1x.jpg 1x, images/retro-battle_modal_fight_feature-1100_2x.jpg 2x" alt="Characters firing weapons">
+                                        <img class="img-fluid" src="images/retro-battle_modal_fight_feature-1100_2x.jpg" srcset="images/retro-battle_modal_fight_feature-550_1x.jpg 1x, images/retro-battle_modal_fight_feature-1100_2x.jpg 2x" alt="Characters firing weapons">
                                         <figcaption>FIGHT!<br>(yes, Poliwag also shoots bullet bills - don't judge me)</figcaption>
                                     </figure>
                                 </div>
