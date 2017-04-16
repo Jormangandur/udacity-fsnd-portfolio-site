@@ -14,7 +14,7 @@ How to use:
 * Generating new image assets requires:
   * [node.js](https://nodejs.org/en/)
   * [npm](https://www.npmjs.com/)
-  * [gulp](http://gulpjs.com/)Portfolio
+  * [gulp](http://gulpjs.com/)
   * [gulp-responsive](https://github.com/mahnunchik/gulp-responsive)]
   * [sharp](https://github.com/lovell/sharp)
   * [GraphicsMagick](http://www.graphicsmagick.org/)
