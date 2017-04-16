@@ -4,14 +4,19 @@ html {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #2d3c49;
     /*height of sticky-footer*/
     margin-bottom: 60px;
 }
 
-h2, hr {
+a {
+    color: inherit;
+    word-wrap: break-word;
+}
+
+h2 {
     font-weight: 300;
     color: #7d97ad;
 }
@@ -21,10 +26,6 @@ h3 {
     font-weight: bold;
 }
 
-hr {
-    border-top: 4px solid;
-}
-
 .header_logo {
     display: inline-block;
     width: 5em;
@@ -32,26 +33,27 @@ hr {
     animation: fa-spin 3s infinite linear;
 }
 
-.feature img {
+.hr-rule {
+    border-bottom: 4px solid #7d97ad;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feature_img {
     width: 300px;
     transition: 0.3s;
 }
 
-.feature img:hover {
+.feature_img:hover {
     cursor: pointer;
     margin-top: 1em;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
 
-.feature img:hover:after {
+.feature_img:hover:after {
     margin-top: 0;
-    width: 0%;
-}
-
-.feature p a {
-    color: inherit;
-    word-wrap: break-word;
+    width: 0;
 }
 
 
