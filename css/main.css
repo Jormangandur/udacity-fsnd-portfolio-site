@@ -8,7 +8,6 @@ body {
     font-weight: 300;
     color: #2d3c49;
     /*height of sticky-footer*/
-    margin-bottom: 60px;
 }
 
 a {
@@ -59,10 +58,20 @@ h3 {
 
 /*sticky footer*/
 
+.featured_work {
+    margin-bottom: -60px;
+}
+
+.featured_work:after {
+    height: 60px;
+    content: "";
+    display: block;
+}
+
 .footer {
     position: absolute;
     width: 100%;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     bottom: 0;
     height: 50px;
     font-size: 32px;
