@@ -5,7 +5,7 @@ Personal portfolio website using bootstrap for responsive design.
 
 How to use:
 ============
-* Clone the repo: ``` git@github.com:Jormangandur/udacity-fsnd-portfolio.git ```
+* Clone the repo: ``` https://github.com/Jormangandur/udacity-fsnd-portfolio-site.git ```
   * Alternatively [download]("https://github.com/Jormangandur/udacity-fsnd-portfolio-site/archive/master.zip") and extract zip
 
 ## Requirements
