@@ -5,8 +5,7 @@ Personal portfolio website using bootstrap for responsive design.
 
 How to use:
 ============
-* Clone the repo: ``` https://github.com/SteadBytes/portfolio-site.git ```
-  * Alternatively [download]("https://github.com/SteadBytes/portfolio-site/archive/master.zip") and extract zip
+* [Clone](https://github.com/SteadBytes/portfolio-site.git) the repo or [download]("https://github.com/SteadBytes/portfolio-site/archive/master.zip") and extract zip.
 
 ## Requirements
 * Web Browser (Supports latest versions of chrome, firefox and edge)
