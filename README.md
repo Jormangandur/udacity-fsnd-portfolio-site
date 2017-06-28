@@ -1,12 +1,12 @@
 # Portfolio Site
-Udacity FSND Project - Build a Portfolio Site
+![Part of the Udacity Full-Stack Web Development Nanodegree](https://img.shields.io/badge/Udacity-Full--Stack%20Web%20Developer%20Nanodegree-02b3e4.svg)
 ---------------------
 Personal portfolio website using bootstrap for responsive design.
 
 How to use:
 ============
-* Clone the repo: ``` https://github.com/Jormangandur/udacity-fsnd-portfolio-site.git ```
-  * Alternatively [download]("https://github.com/Jormangandur/udacity-fsnd-portfolio-site/archive/master.zip") and extract zip
+* Clone the repo: ``` https://github.com/SteadBytes/portfolio-site.git ```
+  * Alternatively [download]("https://github.com/SteadBytes/portfolio-site/archive/master.zip") and extract zip
 
 ## Requirements
 * Web Browser (Supports latest versions of chrome, firefox and edge)
